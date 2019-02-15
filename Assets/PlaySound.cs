@@ -133,14 +133,6 @@ namespace Vuforia
         // Method to play Sound, IF an Imagetarget the picture is detected _ Nikita
         public void foundImage_playSound()
         {
-
-            if (mTrackableBehaviour.TrackableName == "bird1" || mTrackableBehaviour.TrackableName == "bird2" ||
-                mTrackableBehaviour.TrackableName == "bird1" && mTrackableBehaviour.TrackableName == "bird2")
-            {
-                playSound("sounds/blueJay");
-
-            }
-
             if (mTrackableBehaviour.TrackableName == "Butterfly1" || mTrackableBehaviour.TrackableName == "Butterfly2" ||
                 mTrackableBehaviour.TrackableName == "Butterfly1" && mTrackableBehaviour.TrackableName == "Butterfly2")
             {
